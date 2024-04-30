@@ -1,0 +1,27 @@
+{
+  "name": "comeon-javascript-test-master",
+  "version": "1.0.0",
+  "description": "![comeon-javascript-test-site](example.png) # comeon-javascript-test",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch mock/mock-data.json --port 3001 --middlewares mock/mock-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.2.10"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "react-hook-form": "^7.51.3",
+    "react-router-dom": "^6.23.0"
+  }
+}
