@@ -5,7 +5,7 @@ import { Link, Outlet } from "react-router-dom";
 function Layout() {
   return (
     <div>
-      <div className="ui one column center aligned page grid">
+      <div className="ui one column center aligned page relaxed grid">
         <div className="column twelve wide">
           <img src="images/logo.svg" alt="logo" />
         </div>
