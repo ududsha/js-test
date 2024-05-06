@@ -60,8 +60,8 @@ const Header = ({ setSearchTerm }) => {
           <p>{error.response.data.error}</p>
         </div>
       )}
-      <div className="ui grid centered">
-        <div className="twelve wide column">
+      <div className="ui grid centered stackable">
+        <div className="sixteen wide mobile twelve wide tablet twelve wide computer column">
           <div className="ui list">
             {/*<--player item template -->*/}
             <div className="player item">
@@ -86,7 +86,7 @@ const Header = ({ setSearchTerm }) => {
             <i className="left chevron icon"></i>Log Out
           </div>
         </div>
-        <div className="four wide column">
+        <div className="sixteen wide mobile four wide tablet four wide computer column">
           <div className="search ui small icon input ">
             <input
               type="text"

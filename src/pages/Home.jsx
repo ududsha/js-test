@@ -58,12 +58,14 @@ const Home = () => {
       <div className="casino">
         <Header setSearchTerm={setSearchTerm} />
         <div className="ui grid">
-          <Games games={filteredGames} />
-          <Categories
-            categories={categories}
-            selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
-          />
+          <div className="ui stackable grid">
+              <Games games={filteredGames} />
+              <Categories
+                categories={categories}
+                selectedCategory={selectedCategory}
+                setSelectedCategory={setSelectedCategory}
+              />
+          </div>
         </div>
       </div>
     </div>
